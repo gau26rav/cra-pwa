@@ -11,10 +11,10 @@
     "redux": "^4.0.4"
   },
   "scripts": {
-    "start": "react-scripts start && npm run server-start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start && npm run server-start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "server-start": "json-server --port 7000 --watch db.json"
   },
   "eslintConfig": {
@@ -31,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.1.5"
   }
 }
