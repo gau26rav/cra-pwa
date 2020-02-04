@@ -28,9 +28,6 @@ function Landing() {
                 <img src={raspberry} alt="Raspberries"/>
                 <p></p>
             </div>
-
-            
-            
         </div>
     )
 }
