@@ -4,6 +4,7 @@ import maldives from './img/maldives_tropics_ocean_86174_2048x1152.jpg';
 import raspberry from './img/raspberries_blueberries_94014_1920x1200.jpg';
 import travelImg from './img/travel.jpg';
 import './landing.css';
+import InstallPrompt from '../installPrompt/InstallPrompt';
 
 function Landing() {
     return (
@@ -28,6 +29,8 @@ function Landing() {
                 <img src={raspberry} alt="Raspberries"/>
                 <p></p>
             </div>
+
+            <InstallPrompt showPrompt = {true}/>
         </div>
     )
 }

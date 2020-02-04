@@ -4,6 +4,7 @@ import "./styles/home.css";
 import { Route, Switch, Link } from "react-router-dom";
 import Landing from "../landing/landing";
 //import Employees from '../emp-crud/Employees';
+
 const Employees = React.lazy(() => import('../emp-crud/Employees'))
 
 const Lazy = (Component) => {
