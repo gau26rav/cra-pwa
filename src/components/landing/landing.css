@@ -1,0 +1,13 @@
+
+
+img{
+    height: 150px;
+    width: 300px;
+}
+
+@media only screen and (min-width: 600px){
+    img{
+        width: 600px;
+        height: 200px;
+    }
+}
